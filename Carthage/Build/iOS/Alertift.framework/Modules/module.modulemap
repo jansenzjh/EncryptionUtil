@@ -1,0 +1,10 @@
+framework module Alertift {
+  umbrella header "Alertift.h"
+
+  export *
+  module * { export * }
+}
+
+module Alertift.Swift {
+    header "Alertift-Swift.h"
+}
